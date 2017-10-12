@@ -1,0 +1,45 @@
+body {
+  margin:0px;
+}
+
+a.navlink {
+  font-size: 15px;
+  color: #ebebeb;
+  font-family: Myriad Pro;
+  text-decoration:none;
+  padding-right:25px;
+
+}
+
+nav.navlink{
+  background-color:#373c3f;
+  padding-bottom:41px;
+  padding-top:45px;
+  padding-left:55px;
+ 
+}
+
+div.baner {
+  background-color: #17b3c5;
+  
+}
+
+p.baner {
+  font-size: 60px;
+  font-family:Myriad Pro;
+  color: white;
+  padding-top:287px; 
+  padding-bottom:50px;
+}
+a.baner {
+  font-family: Montserrat Regular;  
+  font-size: 34px;
+  color: #a5d2dc;
+
+}
+
+p.more {
+  font-family:Quicksand Bold;
+  font-size: 36px;
+  
+}
