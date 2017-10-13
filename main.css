@@ -1,45 +1,69 @@
 body {
   margin:0px;
+  width:1024px;
 }
 
+nav.navlink { 
+  background-color:#373c3f;
+  padding-bottom:41px;
+  padding-top:45px;
+  padding-left:55px; 
+}
+  
 a.navlink {
   font-size: 15px;
   color: #ebebeb;
   font-family: Myriad Pro;
   text-decoration:none;
   padding-right:25px;
-
 }
 
-nav.navlink{
-  background-color:#373c3f;
-  padding-bottom:41px;
-  padding-top:45px;
-  padding-left:55px;
- 
+div.content {
+  background-color: #17b3c5; 
 }
 
-div.baner {
-  background-color: #17b3c5;
-  
+div.baner {  
+  margin-right:224px;
+  margin-left:83px;
+  width:725px;
+  height:578px;
 }
 
 p.baner {
   font-size: 60px;
-  font-family:Myriad Pro;
+  font-family: Myriad Pro;
   color: white;
-  padding-top:287px; 
+  margin:0px;
+  padding-top:205px;
   padding-bottom:50px;
 }
+
 a.baner {
   font-family: Montserrat Regular;  
   font-size: 34px;
   color: #a5d2dc;
-
+  text-decoration:none;
 }
 
-p.more {
-  font-family:Quicksand Bold;
-  font-size: 36px;
-  
+p.moresign {
+  font-family:QuicksandBold;
+  font-size: 50px;
+  color :white;
+  text-align:right;
+  margin:0px;
+  padding-right:165px;
+} 
+
+div.textbox {
+  background-color:#27212c;
+  height:244px;
+}
+
+p.textbox {
+  color:#9282a0;
+  font-family:Myriad Pro;
+  font-size:30px;
+  margin:0px;
+  padding-top:115px;
+  padding-left:85px;
 }
