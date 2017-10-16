@@ -1,69 +1,128 @@
 body {
-  margin:0px;
-  width:1024px;
+  margin: 0px;
+  width: 1024px; 
 }
 
 nav.navlink { 
-  background-color:#373c3f;
-  padding-bottom:41px;
-  padding-top:45px;
-  padding-left:55px; 
+  background-color: #373c3f;
+  padding-bottom: 41px;
+  padding-top: 45px;
+  padding-left: 55px; 
 }
-  
+ 
+ ul.navlink {
+  list-style-type: none;
+  overflow: hidden;
+ } 
+
+ li.navlink {
+  float: left;
+ }
+
 a.navlink {
   font-size: 15px;
   color: #ebebeb;
-  font-family: Myriad Pro;
-  text-decoration:none;
-  padding-right:25px;
+  font-family: Montserrat-Regular;
+  text-decoration: none;
+  padding-right: 25px;
 }
 
 div.content {
   background-color: #17b3c5; 
 }
 
+ @font-face {
+  font-family: "Montserrat-Regular";
+  src: url("Montserrat-Regular.woff") 
+  format("woff");
+}
+
+ @font-face {
+ font-family: "QuicksandBold-Regular";
+ src: url("Quicksand_Bold.woff") 
+ format("woff");
+}
+
 div.baner {  
-  margin-right:224px;
-  margin-left:83px;
-  width:725px;
-  height:578px;
+  margin-right: 224px;
+  margin-left: 83px;
+}
+
+h1.baner {
+  font-family: Montserrat-Regular;
+  font-size: 60px;
+  color: white;
+  margin: 0px;
+  padding-top: 205px;
+  padding-bottom: 50px; 
+  font-weight: normal;
 }
 
 p.baner {
-  font-size: 60px;
-  font-family: Myriad Pro;
-  color: white;
-  margin:0px;
-  padding-top:205px;
-  padding-bottom:50px;
+  margin: 0px;
+  padding-bottom: 170px;
 }
 
 a.baner {
-  font-family: Montserrat Regular;  
+  font-family: Montserrat-Regular;  
   font-size: 34px;
   color: #a5d2dc;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-p.moresign {
-  font-family:QuicksandBold;
-  font-size: 50px;
-  color :white;
-  text-align:right;
-  margin:0px;
-  padding-right:165px;
+span.baner {
+  font-family: QuicksandBold-Regular;
+  font-size: 36px;
+  color: white;
+  float: right;
+  font-weight: bold;
 } 
 
 div.textbox {
-  background-color:#27212c;
-  height:244px;
+  background-color: #27212c;
 }
 
 p.textbox {
-  color:#9282a0;
-  font-family:Myriad Pro;
-  font-size:30px;
-  margin:0px;
-  padding-top:115px;
-  padding-left:85px;
+  color: #9282a0;
+  font-family: Montserrat-Regular;
+  font-size: 30px;
+  margin: 0px;
+  padding: 115px 85px 108px;
+}
+
+p.moresign {
+  background-color: #bc3183;
+  font-family: QuicksandBold-Regular;
+  font-size: 50px;
+  color: white;
+  padding: 98px 108px 108px 98px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+p.moresign2 {
+  background-color: #5b0fa1;
+  font-family: QuicksandBold-Regular;
+  font-size: 118px;
+  color: white;
+  padding: 125px 162px;
+  font-weight: bold; 
+  display: inline-block;
+}
+  
+div.blaz {
+  font-family: Montserrat-Regular;
+  color: #515151;
+  column-count: 2;
+  background-color: #ebebeb;
+  column-gap: 65px;
+  column-width: 394px;
+  font-size: 14px;
+  line-height: 2;
+  padding: 60px 87px 174px 84px;
+}
+
+h2 {
+  column-span: all; 
+  color: #088ca5;
 }
