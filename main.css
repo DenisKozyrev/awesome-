@@ -80,6 +80,9 @@ span.baner {
 
 div.textbox {
   background-color: #27212c;
+  display: flex;
+  width: 1024px;
+  height: 245px;
 }
 
 p.textbox {
@@ -87,7 +90,9 @@ p.textbox {
   font-family: Montserrat-Regular;
   font-size: 30px;
   margin: 0px;
-  padding: 115px 85px 108px;
+  text-align: center; 
+  width: 795px;
+  padding-top:112px;
 }
 
 p.moresign {
@@ -95,19 +100,29 @@ p.moresign {
   font-family: QuicksandBold-Regular;
   font-size: 50px;
   color: white;
-  padding: 98px 108px 108px 98px;
+  text-align: center;
   font-weight: bold;
-  display: inline-block;
+  margin:0px;
+  width: 229px;
+  padding-top:98px;
+}
+
+div.box3 {
+  display: flex;
+  width: 1024px;
+  height: 296px;
 }
 
 p.moresign2 {
   background-color: #5b0fa1;
   font-family: QuicksandBold-Regular;
-  font-size: 118px;
+  font-size: 50px;
   color: white;
-  padding: 125px 162px;
   font-weight: bold; 
-  display: inline-block;
+  width: 342px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 127px;
 }
   
 div.blaz {
