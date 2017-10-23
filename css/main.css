@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  width: 1024px; 
+  min-width: 1024px; 
   font-family: Montserrat-Regular, Arial, sans-serif;
 }
 
@@ -37,21 +37,23 @@ body {
   padding-right: 25px;
 }
 
+.navlink:hover {
+  color: #afb4b8;
+}
+
 .content {
   background-color: #17b3c5; 
 }
 
 .main_baner {  
-  margin-right: 224px;
-  margin-left: 83px;
+  margin: 0px 224px 0px 83px;
 }
 
 .baner_heading {
   font-size: 60px;
   color: white;
   margin: 0px;
-  padding-top: 205px;
-  padding-bottom: 50px; 
+  padding: 205px 0px 50px 0px;
   font-weight: normal;
 }
 
@@ -66,12 +68,12 @@ body {
   text-decoration: none;
 }
 
-span.baner {
+.baner_span {
   font-family: QuicksandBold-Regular;
   font-size: 36px;
   color: white;
   float: right;
-  font-weight: bold;
+  font-weight: bold; 
 } 
 
 .text_box {
@@ -88,7 +90,7 @@ span.baner {
   text-align: center;
 }
 
-.rtext_box_moresign {
+.text_box_moresign {
   background-color: #bc3183;
   font-family: QuicksandBold-Regular;
   font-size: 50px;
@@ -97,13 +99,13 @@ span.baner {
   text-align: center;
   margin: 0px;
   padding: 98px 107px 109px 97px;
-
 }
 
 .img_box {
   display: flex;
   margin:0px;
   background-color: #5b0fa1;
+  width: 100%;
 }
 
 .img_box_moresign {
@@ -111,12 +113,11 @@ span.baner {
   font-family: QuicksandBold-Regular;
   font-size: 40px;
   color: white;
-  font-weight: bold; 
   width: 100%;
+  font-weight: bold; 
   margin: 0px;
   text-align: center;
-  padding:126px 162px 138px 157px;  
-  
+  padding:126px 162px 131px 155px;  
 }
  
 .footer_text {
