@@ -16,7 +16,7 @@ body {
 }
 
 .conteiner{
-min-width: 1024px;
+  min-width: 1024px;
 }
 
 .nav_block{ 
@@ -146,20 +146,26 @@ min-width: 1024px;
   width: 341px; 
  }
 
-.footer {
+.footer{
   background-color: #ebebeb;
-}
-
-.footer_text{
   column-count: 2;
   color: #515151;
-  font-size: 14px;
+  line-height: 27px;
+  column-gap: 60px;
+  padding: 6px 0px 177px 0px;
 }
 
-.footer_paragraph{
-    width: 394px;
-    line-height: 2;
-  }
+.footer_column_left {
+  color: #515151;
+  font-size: 14px;
+  padding: 8px 0px 0px 82px;
+}
+
+.footer_column_right {
+  color: #515151;
+  font-size: 14px;
+  padding: 22px 80px 0px 0px;
+}
 
 h2 {
   column-span: all;
@@ -167,5 +173,5 @@ h2 {
   font-size: 30px;
   font-weight: normal;
   margin: 0px;
-  padding:48px 0px 0px 80px;
+  padding:48px 0px 0px 79px;
 }
