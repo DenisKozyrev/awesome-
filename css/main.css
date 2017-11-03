@@ -19,10 +19,14 @@ body {
   min-width: 1024px;
 }
 
-.nav_block{ 
+.navigation {
+  display: none;
+}
+
+.nav_block { 
   background-color: #373c3f;
   margin: 0px;
-  padding: 51px 0px 46px 13px;
+  padding: 51px 417px 46px 13px;
   line-height:0px;
 }
 
@@ -124,9 +128,14 @@ body {
    background-color: #5b0fa1;
  }
 
- .img_paragraph{
+ .bridge_img {
   margin:0px;
-  display: flex;
+  display:block;
+ }
+
+ .girl_img {
+  margin:0px;
+  display:block;
  }
  
  .img_box_moresign {
@@ -187,41 +196,12 @@ h2 {
   background-color: #17b3c5; 
 }
 
-.header_unordered_list {
-  width: 980px;
-  margin:0 auto;
-}
-
-.nav_block {
-  background-color: #373c3f;
-  margin: 0px;
-  padding: 51px 0px 46px 13px;
-  line-height: 0px;
-}
-
-.navlist {
-  display: inline;
-  list-style-type: none; 
-}
-
-.navlink {
-  font-size: 15px;
-  color: #ebebeb;
-  text-decoration: none;
-  padding-right: 25px;
-  outline: none;
-}
-
-.navlink:hover {
-  color: #afb4b8;
-}
-
 img {
   height: 282px;
   width: 326px; 
  }
 
-.main_baner{
+.main_baner {
   margin:0px 200px 0px 94px;
 }
 
@@ -235,12 +215,12 @@ img {
   letter-spacing: 0px;
 }
 
-.baner_paragraph{
+.baner_paragraph {
   margin: 0px;
   padding-bottom: 160px;
 }
 
-.baner_link{
+.baner_link {
   font-size: 34px;
   color: #a5d2dc;
   text-decoration: none;
@@ -253,7 +233,7 @@ img {
   color: #8bc2cd;
 }
 
-.baner_span{
+.baner_span {
   font-family: QuicksandBold-Regular;
   font-size: 36px;
   color: white;
@@ -305,10 +285,15 @@ img {
   width: 100%;
   }
 
-.img_paragraph{
+.bridge_img {
   margin:0px;
-  display: flex;
-}
+  display:block;
+ }
+
+ .girl_img {
+  margin:0px;
+  display:block;
+ }
 
 .footer {
   background-color: #ebebeb;
@@ -338,4 +323,163 @@ h2 {
   color: #515151;
   font-size: 14px;
   padding: 22px 90px 0px 2px;
+}
+
+@media screen and (max-width: 640px){
+
+.conteiner {
+  min-width: 640px;
+}
+
+.nav_block {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  background-color: #373c3f;
+  margin: 0px;
+}
+
+.navigation_header {
+  width: 558px;
+}
+
+.nav_header {
+  font-size: 24px;
+  padding: 23px 0px 23px 36px ;
+  color: #ebebeb;
+}
+
+.nav_buton {
+  background-color: #202529;
+  width: 82px;
+  padding-top: 27px;
+}
+
+.rectangle {
+  margin: -11px;
+  text-align: center;
+}
+
+.rectangle_img {
+  width: 31px;
+  height: 4px;
+}
+
+.main_baner {  
+  margin: 0px 0px -65px 0px;
+  width: 640px;
+}
+
+.baner_heading {
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+  padding: 105px 0px 28px 50px;
+  font-weight: normal;
+  line-height: 45px;
+}
+
+.baner_paragraph {
+  margin: 0px;
+  padding-bottom: 166px;
+}
+
+.baner_link { 
+  font-size: 22px;
+  color: #a5d2dc;
+  text-decoration: none;
+  padding-left: 68px;
+}
+
+.baner_link:hover {
+  color: #8bc2cd;
+}
+
+.baner_span {
+  font-family: QuicksandBold-Regular;
+  font-size: 23px;
+  color: white;
+  float: right;
+  font-weight: bold; 
+  padding-right: 136px;
+} 
+
+.text_box {
+  background-color: #27212c;
+  display: flex;
+}
+
+.robin_hood_paragraph {
+  color: #9282a0;
+  font-size: 19px;
+  margin: 0px 0px 0px -45px;
+  padding: 79px 0px 0px 0px;
+  text-align: center;
+}
+
+.text_box_moresign {
+  background-color: #bc3183;
+  font-family: QuicksandBold-Regular;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 59px 65px 61px 58px;
+}
+
+.img_box {
+   background-color: #5b0fa1;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .bridge_img {
+  margin:0px;
+  height: 555px;
+  width: 640px; 
+ }
+
+ .girl_img {
+  margin:0px;
+  height: 555px;
+  width: 640px; 
+ }
+ 
+ .img_box_moresign {
+   background-color: #5b0fa1;
+   font-family: QuicksandBold-Regular;
+   font-size: 75px;
+   color: white;
+   font-weight: bold; 
+   padding: 234px 0px 244px 0px;  
+ }
+
+ .footer {
+  background-color: #ebebeb;
+  color: #515151;
+  line-height: 26px;
+  padding: 6px 0px 100px 0px;
+}
+
+h2 {
+  color: #088ca5;
+  font-size: 30px;
+  font-weight: normal;
+  padding:66px 0px 0px 73px;
+}
+
+.footer_column_left {
+  color: #515151;
+  font-size: 22px;
+  padding: 22px 0px 0px 73px;
+  display: inline-block;
+  width: 495px;
+  line-height: 44px
+}
+
+.footer_column_right {
+ display: none;
 }
