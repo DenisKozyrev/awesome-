@@ -131,11 +131,15 @@ body {
  .bridge_img {
   margin:0px;
   display:block;
+  height: 295px;
+  width: 341px;
  }
 
  .girl_img {
   margin:0px;
   display:block;
+  height: 295px;
+  width: 341px;
  }
  
  .img_box_moresign {
@@ -148,11 +152,6 @@ body {
    text-align: center;
    padding: 125px 160px 0px 157px;  
    width:100%;
- }
-
- img {
-  height: 295px;
-  width: 341px; 
  }
 
 .footer{
@@ -398,7 +397,6 @@ h2 {
 }
 
 .baner_span {
-  font-family: QuicksandBold-Regular;
   font-size: 23px;
   color: white;
   float: right;
@@ -483,3 +481,121 @@ h2 {
 .footer_column_right {
  display: none;
 }
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+
+.conteiner {
+  min-width: 320px;
+}
+
+.nav_block {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  background-color: #373c3f;
+  margin: 0px;
+}
+
+.navigation_header {
+  width: 558px;
+}
+
+.nav_header {
+  font-size: 12px;
+  padding: 11px 0px 11px 19px;
+}
+
+.nav_buton {
+  width: 80px;
+  padding-top: 15px;
+}
+
+.rectangle {
+  margin: -15px;
+  text-align: center;
+  padding-left: 3px;
+}
+
+.rectangle_img {
+  width: 14px;
+  height: 2px;
+}
+
+.main_baner {  
+  margin: 0px;
+  width: 320px;
+}
+
+.baner_heading {
+  font-size: 20px;
+  margin: 0px;
+  padding: 56px 0px 9px 27px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.baner_paragraph {
+  margin: 0px;
+  padding-bottom: 46px;
+}
+
+.baner_link { 
+  font-size: 11px;
+  padding-left: 42px;
+}
+
+
+.baner_span {
+  font-size: 11px;
+  padding-right: 68px;
+} 
+
+.robin_hood_paragraph {
+  font-size: 10px;
+  margin: 0px 0px 0px -15px;
+  padding: 39px 0px 0px 0px;
+}
+
+.text_box_moresign {
+  font-size: 16px;
+  padding: 30px 31px 29px 29px;
+}
+
+ .bridge_img {
+  height: 277px;
+  width: 320px; 
+ }
+
+ .girl_img {
+  height: 277px;
+  width: 320px; 
+ }
+ 
+ .img_box_moresign {
+   font-size: 38px;
+   padding: 117px 0px 122px 0px;  
+ }
+
+ .footer {
+  line-height: 26px;
+  padding: 6px 0px 100px 0px;
+}
+
+h2 {
+  font-size: 19px;
+  padding:26px 0px 0px 37px;
+}
+
+.footer_column_left {
+  font-size: 14px;
+  padding: 0px 0px 0px 37px;
+  width: 265px;
+  line-height: 22px
+}
+
+.footer_column_right {
+ display: none;
+}
+
